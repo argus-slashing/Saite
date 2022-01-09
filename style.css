@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&family=Reem+Kufi&display=swap');
+body{
+    padding:0;
+    margin: 0 auto;
+    max-width: 1440px;
+    font-family: "Red Hat Text";
+    font-style: normal;
+}
+h1{
+    font-family: "Reem Kufi";
+    font-style: normal;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header{
+    background: no-repeat top center url(../img/Header-bg.jpg);
+    height: 800px;  
+}
+nav{
+    display: grid;
+    grid-template-columns: 20% 70% 10%;
+    grid-template-rows: 1fr;
+    align-items: center;
+    padding: 3% 3%;
+}
+.logo{
+    display: flex;    
+}
+.logo h1{
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+    color: #fff;
+}
+.blue{
+    width: 40px;
+    height: 45px;
+    background-color: #1D79E4;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    padding: 0;
+    margin: 0;
+}
+.navbar li{
+    display: inline;
+    padding: 0;
+    margin: 0 5%;
+}
+.navbar a{
+    font-size: 18px;
+    color: #fff;
+}
+.icon{
+    font-size: 32px;
+    color: #fff;
+    text-align: right;
+}
+.header-content{
+   float: left;
+   width: 55%;
+    padding: 10% 3% 0;
+}
+.header-content h1{
+    color: #fff;
+    font-size: 70px;
+    padding: 0;
+    margin: 0;
+
+}
+.header-content p{
+    color: #fff;
+    font-size: 18px;
+}
+.header-content button{
+    margin-top: 10%;
+    width: 217px;
+    height: 56px;
+    background: #1D79E4;
+    border-radius: 60px;
+    border: none;
+    color: #fff;
+}
+.numbers{
+    
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #F4F8FE;
+}
+.num h2{
+    font-family: "Red Hat Text";
+    font-size: 90px;
+}
+.num p{
+    font-size: 24px;
+    color: #555;
+}
+.about-us{
+    padding: 10% 3%;
+}
+.tuth-img{
+    width: 35%;
+}
+@media (max-width: 1190px) {
+    .navbar li{
+        margin: 0 3%;
+    }
+    .header-content{
+        padding: 5% 3% 0;
+    }
+    .num h2{
+        font-family: "Red Hat Text";
+        font-size: 70px;
+    }
+}
